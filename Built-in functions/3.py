@@ -3,7 +3,7 @@ def check(s):
     return clean == clean[::-1]
 
 string = input()
-if check(input_string):
+if check(string):
     print("palindrome")
 else:
     print("not palindrome")
