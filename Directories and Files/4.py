@@ -1,6 +1,5 @@
-filename = input()
-count = 0
-with open(filename, 'r') as file:
-    for line in file:
-        count += 1
-print(count)
+file_path=input("Get your directories way: ")
+with open(file_path, 'r') as file:
+        lines=file.readlines()
+        print(len(lines))
+
